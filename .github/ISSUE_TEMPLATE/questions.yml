@@ -15,7 +15,7 @@ body:
     required: true
 - type: checkboxes
   attributes:
-    label: Have you read the online manual http://abacus.deepmodeling.com/en/latest/
+    label: Have you read FAQ on the online manual http://abacus.deepmodeling.com/en/latest/community/faq.html
     description: Please check the box below if you have read the online manual before submitting your question.
     options:
       - label: Yes, I have read the online manual.
