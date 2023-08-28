@@ -4,15 +4,6 @@ labels: [Feature Request]
 assignees: mohanchen
 
 body:
-- type: input
-    id: title
-    attributes:
-      label: Title
-      description: Provide a short and descriptive title for your issue
-      placeholder: e.g. "Unexpected error when running scf calculation"
-    validations:
-      required: true
-
 - type: textarea
   attributes:
     label: Background
