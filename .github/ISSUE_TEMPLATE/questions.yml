@@ -18,7 +18,7 @@ body:
     label: Have you read FAQ on the online manual http://abacus.deepmodeling.com/en/latest/community/faq.html
     description: Please check the box below if you have read the online manual before submitting your question.
     options:
-      - label: Yes, I have read the online manual.
+      - label: Yes, I have read the FAQ part on online manual.
         required: true
 - type: markdown
   attributes:
