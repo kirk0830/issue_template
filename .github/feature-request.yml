@@ -1,0 +1,39 @@
+name: Feature Request
+description: Suggest something more for ABACUS to do
+labels: [Feature Request]
+assignees: mohanchen
+
+body:
+- type: textarea
+  attributes:
+    label: Background
+    description: |
+      A clear and concise description of why this new feature is important.
+    placeholder: |
+      Example: A new feature is requested according to ...
+      Adding this feature will significantly improve the user experience or ABACUS's functionality by allowing them to...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Describe the solution you'd like
+    description: |
+      A clear and concise description of what you want to happen.
+    placeholder: |
+      Example: I would like to see a new option in the settings menu that allows users to...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Additional Context
+    description: |
+      Add any other context or screenshots about the feature request here.
+    placeholder: |
+      Example: Here is a mockup of the proposed feature (insert screenshot or link to design)...
+
+- type: markdown
+  attributes:
+    value: >
+      Thanks for contributing 🎉!
