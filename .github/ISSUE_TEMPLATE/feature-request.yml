@@ -4,24 +4,14 @@ labels: [Feature Request]
 assignees: mohanchen
 
 body:
-- type: input
-  attributes:
-    label: Title
-    description: |
-      Provide a clear and concise title for your feature request.
-    placeholder: |
-      Example: Add a new option in the settings menu for ...
-  validations:
-    required: true
-
 - type: textarea
   attributes:
     label: Background
     description: |
       A clear and concise description of why this new feature is important.
     placeholder: |
-      Example: A new feature is requested according to ...    
-      Adding this feature will significantly improve the user experience or ABACUS's functionality by allowing them to ...
+      Example: A new feature is requested based on emerging research in density functional theory ...    
+      Implementing this feature will significantly enhance ABACUS's capabilities and improve user experience by enabling them to ...
   validations:
     required: true
 
@@ -31,7 +21,7 @@ body:
     description: |
       A clear and concise description of what you want to happen.
     placeholder: |
-      Example: I would like to see a new option in the settings menu that allows users to...
+      Example: It is suggested to implement a novel functionality with the LCAO basis, enabling users to efficiently ...
   validations:
     required: true
 
@@ -39,9 +29,9 @@ body:
   attributes:
     label: Additional Context
     description: |
-      Add any other context or screenshots about the feature request here.
+      Add any other context or references about the feature request here.
     placeholder: |
-      Example: Here is a mockup of the proposed feature (insert screenshot or link to design)...
+      Example: Here is a mockup of the proposed feature (insert screenshot or link to design), along with relevant research articles and resources that support the implementation of this feature...
 
 - type: markdown
   attributes:
