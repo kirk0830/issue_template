@@ -4,6 +4,16 @@ labels: [Feature Request]
 assignees: mohanchen
 
 body:
+- type: input
+  attributes:
+    label: Title
+    description: |
+      Provide a clear and concise title for your feature request.
+    placeholder: |
+      Example: Add a new option in the settings menu for ...
+  validations:
+    required: true
+
 - type: textarea
   attributes:
     label: Background
