@@ -39,10 +39,10 @@ body:
       It is recommended to attach your calculation case here for the developers to reproduce the bug.
     placeholder: |
       Example:  
-      1. Clone the source code from https://github.com/deepmodeling/abacus-develop.git <br>
-      2. Configure CMake with options -DBUILD_TESTING=ON ...  <br>
-      3. Build ABACUS with cmake --build build -j8 ...  <br>
-      4. Run ABACUS with mpirun -np 4 ./abacus ...  <br>
+      1. Clone the source code from https://github.com/deepmodeling/abacus-develop.git     
+      2. Configure CMake with options -DBUILD_TESTING=ON ...    
+      3. Build ABACUS with cmake --build build -j8 ...    
+      4. Run ABACUS with mpirun -np 4 ./abacus ...    
 
 - type: textarea
   attributes:
