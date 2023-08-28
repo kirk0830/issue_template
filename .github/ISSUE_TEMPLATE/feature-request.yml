@@ -4,14 +4,23 @@ labels: [Feature Request]
 assignees: mohanchen
 
 body:
+- type: input
+    id: title
+    attributes:
+      label: Title
+      description: Provide a short and descriptive title for your issue
+      placeholder: e.g. "Unexpected error when running scf calculation"
+    validations:
+      required: true
+
 - type: textarea
   attributes:
     label: Background
     description: |
       A clear and concise description of why this new feature is important.
     placeholder: |
-      Example: A new feature is requested according to ...
-      Adding this feature will significantly improve the user experience or ABACUS's functionality by allowing them to...
+      Example: A new feature is requested according to ...    
+      Adding this feature will significantly improve the user experience or ABACUS's functionality by allowing them to ...
   validations:
     required: true
 
