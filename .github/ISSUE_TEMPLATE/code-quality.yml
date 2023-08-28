@@ -1,4 +1,4 @@
-name: Code Quality Issues
+name: Code Quality
 description: For developers to report issues related to code quality, such as non-standard code, poor design, improper use of global classes or variables, or maintainability issues that require refactoring.
 labels: [Code Quality]
 assignees: [insert assignee here]
