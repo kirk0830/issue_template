@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report for problems with ABACUS
+description: For users or developers to report any programming issues, such as crashes, errors, or unexpected behavior of ABACUS
 labels: [Bug Report]
 assignees: dyzheng
 body:
