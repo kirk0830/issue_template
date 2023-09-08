@@ -69,9 +69,9 @@ body:
   attributes:
     label: Task list for Issue attackers
     options:
-      - label: Verify the issue is not a duplicate
-      - label: Describe the bug
-      - label: Steps to reproduce
+      - label: Verify the issue is not a duplicate.
+      - label: Describe the bug.
+      - label: Steps to reproduce.
 
 - type: markdown
   attributes:
