@@ -1,3 +1,4 @@
+body:
 - type: checkboxes
   attributes:
     label: Have you noticed possible changes of behavior?
