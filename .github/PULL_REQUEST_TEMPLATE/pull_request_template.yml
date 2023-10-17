@@ -1,0 +1,15 @@
+- type: checkboxes
+  attributes:
+    label: Have you noticed possible changes of behavior?
+    description: Please check the box below if you have noticed possible changes of behavior of the code in your issue or pull request.
+    options:
+      - label: Yes, I have noticed possible changes of behavior.
+        required: true
+
+- type: textarea
+  attributes:
+    label: Please Notice Possible Change of Behavior
+    description: |
+      Please ensure that you have carefully considered the possible change of behavior your code changes might introduce. Make sure to provide a detailed explanation of these changes and their potential impact on the application. This will help reviewers to better understand your changes and assess their implications.
+    placeholder: |
+      Example: My changes might affect the performance of the application under certain conditions, and I have tested the impact on various scenarios...
